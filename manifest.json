@@ -13,6 +13,14 @@
       "src": "512.png",
       "type": "image/png",
       "sizes": "512x512"
+      "isSquare": false,
+      "isPng": true,
+      "isWebp": false,
+      "isJpg": false,
+      "width": 0,
+      "is512x512": true,
+      "is256x256": false,
+      "is192x192": false
     }
   ],
   "id": "Sabt.Ezafeh.Kari",
