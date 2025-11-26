@@ -48,7 +48,11 @@
     <script src="jquery-3.6.0.min.js"></script>
     <script src="kamadatepicker.min.js"></script>
     <script src="moment.min.js"></script>
-    <script src="sw.js"></script>
+    <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
 	<script src="moment-timezone-with-data.min.js"></script>
     <script src="jalali-moment.browser.js"></script>
     <script src="xlsx.full.min.js"></script>
